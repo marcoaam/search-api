@@ -1,4 +1,4 @@
-search-api
+Foursquare
 ==========
 
-Search API integration
+Search with the Foursquare API for places.
