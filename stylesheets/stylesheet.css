@@ -1,0 +1,44 @@
+#main {
+	width: 800px;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	height: 70px;
+	background-color: orange;
+	margin-bottom: 20px;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-family: Helvetica;
+	margin: 10px auto;
+}
+
+#search_form {
+	float: left;
+	padding: 20px;
+	background-color: skyblue;
+	font-family: Helvetica;
+	color: white;
+	width: 250px;
+	border-radius: 10px;
+	margin: 0 auto;
+}
+
+#results {
+	float: right;
+	margin: 0 auto;
+	width: 350px;
+}
+
+#result {
+	font-family: Helvetica;
+	background-color: green;
+	border-radius: 10px;
+	margin: 20 auto;
+	color: white;
+	padding: 20px;
+}
