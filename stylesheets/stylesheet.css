@@ -30,9 +30,9 @@ h1 {
 }
 
 #results {
-	float: right;
-	margin: 0 auto;
-	width: 350px;
+	position: relative;
+	top: -250px;
+	width: 300px;
 }
 
 #result {
@@ -42,4 +42,14 @@ h1 {
 	margin: 20 auto;
 	color: white;
 	padding: 20px;
+}
+
+#map {
+	position: fixed;
+	right: -10%;
+  width: 400px;
+  height: 400px;
+  -moz-box-shadow: 0px 5px 20px #ccc;
+  -webkit-box-shadow: 0px 5px 20px #ccc;
+  box-shadow: 0px 5px 20px #ccc;
 }
