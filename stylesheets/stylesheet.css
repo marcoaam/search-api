@@ -79,6 +79,7 @@ button {
 	font-weight: bold;
 	height: 25px;
 	border-radius: 5px;
+	outline: 0;
 }
 
 button:hover {
