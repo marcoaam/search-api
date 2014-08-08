@@ -13,7 +13,7 @@ $(document).ready(function() {
 			$('#results').text('');
 			map.removeMarkers();
 			search.response.venues.forEach(function(restaurant) {
-				$('<div id="result">' + restaurant.name + '<br>' + restaurant.location.formattedAddress[0] + '</div>').prependTo('#results');
+				$('<li id="result">' + restaurant.name + '<br>' + restaurant.location.formattedAddress[0] + '</li>').prependTo('#results');
 				console.log(restaurant.location);
 				map.setCenter(51.5138687,-0.1129165);
 				map.setZoom(12);
